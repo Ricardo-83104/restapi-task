@@ -1,0 +1,32 @@
+###
+GET http://localhost:3000/api/tasks
+
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title":"HACER PRUEBA",
+    "description": "trabajo por contrato",
+    "done": true
+}
+
+###
+GET http://localhost:3000/api/tasks?page=0&size=4
+
+###
+
+DELETE http://localhost:3000/api/tasks/625393b7470002f73d31900d
+
+###
+
+GET http://localhost:3000/api/tasks/done
+
+###
+
+PUT http://localhost:3000/api/tasks/6253a194164db48b7881ae37
+Content-Type: application/json
+
+{
+    "title": "Hacer REST/API en nodejs"
+}
