@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@babel/runtime": "^7.17.9",
     "cors": "^2.8.5",
     "corss": "^2.8.5",
     "dotenv": "^16.0.0",
